@@ -27,7 +27,7 @@ namespace InfusionSoft
         {
             if (_Uri == null)
             {
-                _Uri = new Uri($"https://api.infusionsoft.com/crm/xmlrpc/v1?access_token={AccessToken}");
+                _Uri = new Uri( $"https://api.infusionsoft.com/crm/xmlrpc/v1?access_token={AccessToken}");
             }
 
             return _Uri;
